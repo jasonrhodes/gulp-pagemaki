@@ -1,1 +1,5 @@
-{}
+{
+  "dependencies": {
+    "through": "^2.3.4"
+  }
+}
