@@ -1,5 +1,32 @@
 {
   "dependencies": {
     "through": "^2.3.4"
-  }
+  },
+  "name": "gulp-pagemaki",
+  "description": "gulp-pagemaki =============",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --reporter line"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasonrhodes/gulp-pagemaki.git"
+  },
+  "keywords": [
+    "gulp",
+    "gulp-plugin",
+    "static",
+    "generator",
+    "markdown",
+    "html",
+    "streaming"
+  ],
+  "author": "Jason Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonrhodes/gulp-pagemaki/issues"
+  },
+  "homepage": "https://github.com/jasonrhodes/gulp-pagemaki"
 }
