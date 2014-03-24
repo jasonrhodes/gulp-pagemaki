@@ -16,6 +16,10 @@ module.exports = function (options) {
 
     var stream = this;
 
+    if (!file._contents) {
+      return;
+    }
+
     maker.make(file._contents.toString(), function (err, made) {
       file._contents = new Buffer(made);
       stream.queue(file);
