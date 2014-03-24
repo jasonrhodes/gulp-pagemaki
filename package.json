@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "through": "^2.3.4",
-    "pagemaki": "0.1.0"
+    "pagemaki": "jasonrhodes/node-pagemaki"
   },
   "name": "gulp-pagemaki",
   "description": "gulp-pagemaki =============",
