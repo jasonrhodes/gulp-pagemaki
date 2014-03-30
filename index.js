@@ -20,7 +20,10 @@ module.exports = function (options) {
       return;
     }
 
-    maker.make(file._contents.toString(), function (err, made) {
+    maker.make({
+      contents: file._contents.toString(), 
+      extension: file.relative.split(".").pop()
+    }, function (err, made) {
       file._contents = new Buffer(made);
       stream.queue(file);
     });
