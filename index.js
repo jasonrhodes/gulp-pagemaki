@@ -25,6 +25,7 @@ module.exports = function (options) {
       extension: file.relative.split(".").pop()
     }, function (err, made) {
       file._contents = new Buffer(made);
+      file.path = file.path.replace(/\.markdown$/, ".html");
       stream.queue(file);
     });
     
